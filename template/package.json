@@ -1,8 +1,8 @@
 {
-  "name": "aa",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "bb",
-  "author": "cc",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
   "private": true,
   "scripts": {
     "dev": "node ./src/server",
